@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 
 
-def getFollowers(dir="/"):
+def getFollowers(dir="./"):
     '''
     Retrieve the list of your followers as an array.\n
     Pass the filepath to your instagram's data (relative to this script). (instagram-username folder)\n
@@ -16,7 +16,7 @@ def getFollowers(dir="/"):
 
     return names
 
-def getFollowing(dir="/"):
+def getFollowing(dir="./"):
     '''
     Retrieve the list of the people you follow as an array.\n
     Pass the filepath to your instagram's data (relative to this script). (instagram-username folder)\n

@@ -11,12 +11,12 @@ Useful tools for instagram ! Relies on your data, not the API.
 - All info / Some info depending on your usage. If in doubt : All info
 - Download on device
 - Period: Since the beining
-- Format: HTML
+- Format: `HTML`
 - Create files !
 
 ## How to use the app ?
-- Once you downloaded your files you should have a folder called 
+- Once you downloaded your files you should have a folder called `instagram-username-something_else`
 - Then you must wait for the files to be ready and download the zipped folder. Unzip it, its name should start with: instagram-username.
 - Replace instagram-username-example-folder with your folder
 - In the code, if needed, pass this file as a function's parameter with a / at the end.
-  - Example in your code: array = getFollowers("instagram-username-example/")
+  - Example in your code: `array = getFollowers("instagram-username-example/")`
